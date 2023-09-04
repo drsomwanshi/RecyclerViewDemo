@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:theme="@style/MyStyle"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:id="@+id/btn1"
+        android:textSize="12pt"
+        android:onClick="OpenCamera"
+        ></Button>
+<ImageView
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:id="@+id/img2"
+    android:layout_gravity="center"
+    ></ImageView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler1"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

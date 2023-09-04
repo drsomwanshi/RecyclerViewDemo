@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8F1FA"
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/img1"
+            android:src="@drawable/defaultuser"
+            android:layout_margin="5dp"
+
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt1"
+            android:text="FullName"
+            android:textSize="12pt"
+            style="@style/MyStyle"
+            android:layout_margin="1dp"
+            android:layout_toRightOf="@id/img1"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt2"
+            android:text="Contact"
+            android:textSize="12pt"
+            style="@style/MyStyle"
+            android:layout_margin="1dp"
+            android:layout_toRightOf="@id/img1"
+            android:layout_below="@id/txt1"
+            ></TextView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
